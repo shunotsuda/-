@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+
+    <title>Document</title>
+
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="styles/vendors/css-reset.css" />
+    <!-- google fonts コピペ -->
+    <!-- その他のcss -->
+    <link rel="stylesheet" href="styles/vendors/swiper-bundle.min.css" />
+    <!-- メインcss -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- swiper javascript -->
+    <script src="scripts/vendors/swiper-bundle.min.js" defer></script>
+    <script src="scripts/libs/swiper.js" defer></script>
+    <!-- scroll javascript -->
+    <script src="scripts/vendors/scroll-polyfill.js" defer></script>
+    <script src="scripts/libs/scroll.js" defer></script>
+
+    <!-- その他のjavascript -->
+    <script src="scripts/libs/mobile-menu.js" defer></script>
+    <script src="scripts/libs/text-animation.js" defer></script>
+    <!-- メインjavascript -->
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <!-- menuのon offをtoggleで設置 -->
+    <div id="global-container">
+      <!-- モバイルメニューon -->
+      <nav class="mobile-menu">
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title"></span>
+              <span class="sub-title"></span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title"></span>
+              <span class="sub-title"></span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title"></span>
+              <span class="sub-title"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- モバイルメニューoff -->
+      <div id="container">
+        <header class="header">
+          <div class="header__inner">
+            <div class="logo">
+              <img class="logo__img" src="" />
+              <span class="logo__title"></span>
+            </div>
+            <nav class="header__nav">
+              <ul class="header__ul">
+                <li class="header__li item"><a href="#"></a></li>
+                <li class="header__li item"><a href="#"></a></li>
+                <li class="header__li item">
+                  <a class="btn" href="#"></a>
+                </li>
+              </ul>
+            </nav>
+            <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+        <div id="content">
+          <div class="hero">
+            <div class="swiper"></div>
+            <h1 class="hero__title"></h1>
+            <img class="hero__img" src="" alt="" />
+          </div>
+          <div id="main-content">
+            <main class="wrap">
+              <section class="about">
+                <div class="about__inner">
+                  <div class="about__img">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="about__texts">
+                    <h2 class="about__title main-title"></h2>
+                    <div class="about__sub sub-title"></div>
+                    <div class="about__description">
+                      <p></p>
+                    </div>
+                    <div class="about__btn">
+                      <button class="btn">もっと詳しく</button>
+                    </div>
+                    　
+                  </div>
+                </div>
+              </section>
+              <section class="works">
+                <div class="works__header">
+                  <h2 class="main-title"></h2>
+                  <p class="sub-title"></p>
+                </div>
+                <div class="works__inner">
+                  <div class="works__item">
+                    <div class="works__img">
+                      <picture></picture>
+                    </div>
+                    <p class="works__title"></p>
+                  </div>
+                </div>
+                <div class="works__btn">
+                  <button class="btn">もっと詳しく</button>
+                </div>
+              </section>
+              <section class="popular">
+                <div class="popular__header">
+                  <h2 class="main-title"></h2>
+                  <p class="sub-title"></p>
+                </div>
+                <div class="popular__inner">
+                  <div class="popular__item">
+                    <div class="popular__img">
+                      <img src="" alt="" />
+                    </div>
+                    <p class="popular__title"></p>
+                  </div>
+                  <div class="popular__btn">
+                    <button class="btn"></button>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
+          <div class="footer">
+            <div class="logo"></div>
+            <nav class="footer__nav">
+              <ul class="footer__ul">
+                <li class="footer__li"><a href="#"></a></li>
+                <li class="footer__li"><a href="#"></a></li>
+                <li class="footer__li"><a href="#"></a></li>
+              </ul>
+              <div class="footer__copyright">&copy;</div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
